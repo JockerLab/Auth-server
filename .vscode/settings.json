@@ -1,0 +1,9 @@
+{
+    "workbench.tree.indent": 24,
+    "workbench.colorCustomizations": {
+        "tree.indentGuidesStroke": "#ff0000"
+    },
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+}
