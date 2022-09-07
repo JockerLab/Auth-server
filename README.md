@@ -24,7 +24,8 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Actual full application link:
+https://main--effortless-liger-22f764.netlify.app/#/
 
 ## Installation
 
