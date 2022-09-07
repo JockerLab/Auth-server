@@ -19,6 +19,11 @@ import "dotenv/config";
             database: process.env.PG_DATABASE,
             entities: [User],
             synchronize: true,
+            autoLoadEntities: true,
+            ssl:
+                process.env.NODE_ENV === 'production'
+                ? { rejectUnauthorized: false }
+                : false,
         }),
     ],
     controllers: [AppController],
